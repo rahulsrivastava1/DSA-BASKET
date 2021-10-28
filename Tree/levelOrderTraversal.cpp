@@ -1,6 +1,9 @@
 // only function
 // The function will return vector of vectors containing level order traversal nodes
 
+// Time Complexity:- O(N)
+// Space Complexity:- O(N)
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
