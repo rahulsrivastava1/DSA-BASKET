@@ -6,7 +6,6 @@ using namespace std;
 class Solution{
 private:
   bool checkCycle(int s,int V,vector<int> adj[],vector<int>& vis){
-    vector<int> parent(V,-1);
     queue<pair<int,int>> q;
     visited[s]=true;
     q.push({s,-1});
