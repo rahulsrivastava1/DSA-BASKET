@@ -1,4 +1,4 @@
-// Shortest path in Undirected Graph
+// Shortest path in Undirected Graph of unit weight
 // using BFS
 // Time Complexity :- O(N+E)
 // Space Complexity :- O(N)+O(N)
