@@ -1,5 +1,6 @@
 // Prim's Algorithm in Brute force
 // Time Complexity :- >O(N^2)
+// Space Complexity :- O(3N) for 3 arrays
 
 #include<bits/stdc++.h>
 using namespace std;
