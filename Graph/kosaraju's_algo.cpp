@@ -2,6 +2,11 @@
 // Time Complexity :- O(N+E)
 // Space Complexity :- O(N+E)+O(N)+O(N)
 
+// Algorithm:-
+// 1. sort all the nodes according to finish time using topological sort
+// 2. tranpose the graph
+// 3. traverse through graph using tranpose and make dfs and print nodes 
+
 #include<bits/stdc++.h>
 using namespace std;
 
