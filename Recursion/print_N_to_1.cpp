@@ -4,9 +4,11 @@
 using namespace std;
 
 void printReverse(int n){
-  cout<<n<<" ";
-  if(n==1)
+  if(n==1){
+    cout<<n<<" ";
     return;
+  }
+  cout<<n<<" ";
  printReverse(n-1); 
 }
 
