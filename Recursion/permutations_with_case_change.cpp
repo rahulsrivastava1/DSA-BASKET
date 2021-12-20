@@ -15,6 +15,7 @@ void solve(string a,string op){
   a.erase(a.begin()+0);
   solve(a,op1);
   solve(a,op2);
+  return;
 }
 
 // driver code
