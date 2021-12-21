@@ -1,4 +1,8 @@
 // Rat in a maze problem
+// Expected Time Complexity :- O((3N^2))
+// Expected Auxiliary Space: O(L * X)
+// Where, L = length of the path, X = number of paths.
+
 
 // only function
 
