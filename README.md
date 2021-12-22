@@ -16,6 +16,8 @@ DSA PROGRAMS IN C and C++ LANGUAGE.
 `11.` Sorting & Searching <br/>
 `12.` Stack <br/>
 
+<a href="https://github.com/rahulsrivastava1/Rahul_DSAChallenge_Solutions">Similar Repo</a>
+
 <hr/>
 All are welcome to contribute your optimised algorithm.<br/>
 <p> please read  <a href="https://github.com/rahulsrivastava1/DSA-BASKET/blob/main/contributions.md">contributions.md</a>  before contributing.</p>
