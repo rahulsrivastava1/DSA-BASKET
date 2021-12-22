@@ -1,5 +1,5 @@
 # DSA BASKET
-ALL DSA PROGRAMS IN C and C++ LANGUAGE.
+DSA PROGRAMS IN C and C++ LANGUAGE.
 
 ***Topics***
 
