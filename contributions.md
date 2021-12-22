@@ -6,6 +6,7 @@
 `2.` On the top, specify the name of program, time complexity and space complexity as comment. <br/>
 `3.` If you want write approach. <br/>
 `4.` Comment or not its your choice. <br/>
+`5.` Last only C++ language.
 
 
 Ho gya <br/>
