@@ -18,7 +18,7 @@ ALL DSA PROGRAMS IN C and C++ LANGUAGE.
 
 <hr/>
 All are welcome to contribute your optimised algorithm.<br/>
-<p> please read  <a href="">contributions.md</a>  before contributing.</p>
+<p> please read  <a href="https://github.com/rahulsrivastava1/DSA-BASKET/blob/main/contributions.md">contributions.md</a>  before contributing.</p>
 
 <hr/>
 <b> Show some love by starring the repository 🌟 </b>
