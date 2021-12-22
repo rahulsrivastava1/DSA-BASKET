@@ -25,5 +25,5 @@ All are welcome to contribute your optimised algorithm.<br/>
 <hr/>
 <b> Show some love by starring the repository 🌟 </b>
 
-Author:
+Reach out to me:
 <a href="https://linktr.ee/rahulsrivastav">Rahul Srivastava</a>
