@@ -1,4 +1,6 @@
 // Fractional Knapsack
+// Approarch:-
+// Value/weight(descending order)
 
 // structure
 struct Item{
