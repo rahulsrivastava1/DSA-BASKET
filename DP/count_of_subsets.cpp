@@ -12,7 +12,7 @@ int perfectSum(int arr[], int n, int sum)
             }
         }
         for(int i=1;i<n+1;i++){
-            for(int j=1;j<sum+1;j++){
+            for(int j=0;j<sum+1;j++){
                 if(arr[i-1]<=j){
                     dp[i][j]=dp[i-1][j-arr[i-1]]%1000000007 + dp[i-1][j]%1000000007;
                 }else{
