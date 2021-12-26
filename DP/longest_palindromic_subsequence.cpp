@@ -1,7 +1,7 @@
 // Longest Palindromic Subsequence
 
 // utility function
-int lcs(int x, int y, string s1, string s2)
+int helperLCS(int x, int y, string s1, string s2)
     {
         int dp[x+1][y+1];
         for(int i=0;i<x+1;i++){
