@@ -23,7 +23,7 @@ int helperLCS(int x, int y, string s1, string s2)
 
 // main function
 int LPS(string a){
-  string b=reverse(a.begin(),a.end());
+  string b=string(a.rbegin(),a.rend());
   int x=a.size();
   return helperLCS(x,x,a,b);
 }
