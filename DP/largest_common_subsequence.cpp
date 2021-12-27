@@ -10,7 +10,7 @@ int lcs(int x, int y, string s1, string s2){
     return max(lcs(x,y-1,s1,s2),lcs(x-1,y,s1,s2));
 }
 
-// Memoization or Bottom up Approach
+// Memoization or Top Down Approach
 class Solution
 {
     public:
@@ -32,7 +32,7 @@ class Solution
     }
 };
 
-// Top Down Approach
+// Bottom Up Approach
 int lcs(int x, int y, string s1, string s2)
     {
         int dp[x+1][y+1];
