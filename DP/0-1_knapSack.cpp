@@ -15,6 +15,7 @@ int knapSack(int W, int wt[], int val[], int n)
 
 // DP - approach
 // Recursion + Memoization
+// Top down Approach
 
 class Solution
 {
@@ -39,7 +40,8 @@ class Solution
 };
 
 // DP - approach
-// Top Down Approach
+// Tabulization
+// Bottom Up approach
 
 // function
 int knapSack(int W,int wt[],int val[],int n){
