@@ -1,5 +1,9 @@
 // QuickSort using Dutch National Flag Algorithm
 
+// Quicksort exhibits poor performance for inputs that contain many repeated elements. The problem is visible when all the input elements are equal. 
+// Then at each point in recursion, the left partition is empty (no input values are less than the pivot), and the right partition has only decreased 
+// by one element (the pivot is removed). Consequently, the algorithm takes quadratic time to sort an array of equal values.
+
 #include<bits/stdc++.h>
 using namespace std;
 
