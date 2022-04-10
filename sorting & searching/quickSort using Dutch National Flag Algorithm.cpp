@@ -1,0 +1,46 @@
+// QuickSort using Dutch National Flag Algorithm
+
+#include<bits/stdc++.h>
+using namespace std;
+
+pair<int,int> partition(vector<int>& arr,int start,int end){
+  int mid=start;
+  int pivot=arr[end];
+  while(mid<=end){
+    if(arr[mid]<pivot){
+      swap(arr[start],arr[mid]);
+      start++;
+      mid++;
+    }else if(arr[mid]>pivot){
+      swap(arr[mid],arr[end]);
+      end--;
+    }else
+      mid++;
+  }
+  return {start-1,end};
+}
+
+void quickSort(vector<int>& arr,int start,int end){
+  if(start>=end)
+    return;
+  if(end-start==1){
+    if(arr[start]>arr[end])
+      swap(arr[start],arr[end]);
+    return;
+  }
+  pair<int,int> pivot=partition(arr,start,end);
+  quickSort(arr,start,pivot.first);
+  quickSort(arr,pivot.second,end);
+}
+
+int main(){
+  int n;
+  cin>>n;
+  vector<int> arr(n);
+  for(int i=0;i<n;i++)
+    cin>>arr[i];
+  quickSort(arr,0,n-1);
+  for(auto it:arr)
+    cout<<it<<" ";
+  return 0;
+}
