@@ -4,17 +4,20 @@ DSA PROGRAMS IN C and C++ LANGUAGE.
 ***Topics***
 
 `1.`  Backtracking <br/>
-`2.`  DP <br/>
-`3.`  Graph <br/>
-`4.`  Greedy <br/>
-`5.`  Heap <br/>
-`6.`  Linked List <br/>
-`7.`  Queue <br/>
-`8.`  Recusrion <br/>
-`9.`  Trie <br/>
-`10.` Tree <br/>
-`11.` Sorting & Searching <br/>
-`12.` Stack <br/>
+`2.`  Basic Code <br/>
+`3.`  DP <br/>
+`4.`  Graph <br/>
+`5.`  Greedy <br/>
+`6.`  Heap <br/>
+`7.`  Linked List <br/>
+`8.`  Matrix <br/>
+`9.`  Queue <br/>
+`10.` Recursion <br/>
+`11.` Sliding window <br/>
+`12.` Trie <br/>
+`13.` Tree <br/>
+`14.` Sorting & Searching <br/>
+`15.` Stack <br/>
 
 <a href="https://github.com/rahulsrivastava1/Rahul_DSAChallenge_Solutions">Similar Repo</a>
 
