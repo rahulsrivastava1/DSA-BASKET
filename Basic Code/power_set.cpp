@@ -1,5 +1,8 @@
 // power set
 
+// Time Complexity :- O(2^n)
+// Space Complexity :- O(n*2^n)
+
 #include<iostream>
 #include<string>
 #include<vector>
