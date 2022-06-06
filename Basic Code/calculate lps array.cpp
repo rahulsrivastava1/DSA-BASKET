@@ -1,5 +1,7 @@
 // longest proper prefix
 
+// str+"$"+reverse(str)
+
 vector<int> calculatelps(string s){
     int n=s.size();
     int len=0;
