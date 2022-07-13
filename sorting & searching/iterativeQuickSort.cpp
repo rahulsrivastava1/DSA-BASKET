@@ -1,5 +1,7 @@
 // iterative quick sort
-// Time complexity :- O(NlogN)
+// Time complexity :-
+// Avg O(NlogN)
+// Worst O(N^2)
 
 #include <bits/stdc++.h>
 using namespace std;
