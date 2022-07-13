@@ -16,8 +16,9 @@ void merge(int arr[],int l,int mid,int r){
 		temp[k++]=arr[i++];
 	while(j<=r)
 		temp[j++]=arr[j++];
-	for(i=l;i<r;i++)
-		arr[i]=temp[i-l];
+	int size=sizeof(temp)/sizeof(temp[0]);
+	for(i=0,j=l;i<size;i++,j++)
+		arr[j]=temp[i];
 }
 
 void mergeSort(int arr[],int l,int r){
