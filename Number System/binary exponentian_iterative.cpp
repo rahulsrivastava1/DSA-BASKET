@@ -1,4 +1,4 @@
-// Binary Exponentian
+// Binary Exponentian for small a,b,m
 
 #include <bits/stdc++.h>
 using namespace std;
