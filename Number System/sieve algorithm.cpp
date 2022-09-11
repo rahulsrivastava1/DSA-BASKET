@@ -6,10 +6,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-const int N=1e7+10;
+const int n=1e7+10;
 vector<bool> isPrime(n,1);
 
-void sieve(int n){
+void sieve(){
     isPrime[0]=isPrime[1]=0;
     for(int i=2;i<n;i++){
         if(isPrime[1]){
@@ -22,6 +22,6 @@ void sieve(int n){
 int main() {
     int n;
     cin>>n;
-    sieve(n);
-	  return 0;
+    sieve();
+    return 0;
 }
