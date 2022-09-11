@@ -20,8 +20,6 @@ void sieve(){
 }
 
 int main() {
-    int n;
-    cin>>n;
     sieve();
     return 0;
 }
